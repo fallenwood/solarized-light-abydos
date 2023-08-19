@@ -1,0 +1,35 @@
+{
+  "name": "theme-solarized-abydos",
+  "displayName": "Solarized (Abydos)",
+  "description": "A modified version of offical Solarized Light theme.",
+  "version": "0.0.1",
+  "publisher": "fallenwood",
+  "license": "MIT",
+  "engines": {
+    "vscode": "*"
+  },
+  "icon": "images/solarized.png",
+  "contributes": {
+    "themes": [
+      {
+        "id": "Solarized Abydos",
+        "label": "Solarized Abydos",
+        "uiTheme": "vs",
+        "path": "./themes/solarized-light-color-theme.json"
+      }
+    ]
+  },
+  "keywords": [
+    "solarized",
+    "solarized light"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fallenwood/solarized-light-abydos"
+  },
+  "homepage": "https://github.com/fallenwood/solarized-light-abydos",
+  "bugs": "https://github.com/fallenwood/solarized-light-abydos/issues",
+  "dependencies": {
+    "@vscode/vsce": "^2.20.1"
+  }
+}
