@@ -2,7 +2,7 @@
   "name": "theme-solarized-abydos",
   "displayName": "Solarized (Abydos)",
   "description": "A modified version of the official Solarized Light theme with modern VS Code color coverage.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "fallenwood",
   "license": "MIT",
   "engines": {
