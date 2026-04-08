@@ -1,14 +1,36 @@
 {
   "name": "theme-solarized-abydos",
   "displayName": "Solarized (Abydos)",
-  "description": "A modified version of offical Solarized Light theme.",
-  "version": "0.0.1",
+  "description": "A modified version of the official Solarized Light theme with modern VS Code color coverage.",
+  "version": "0.1.0",
   "publisher": "fallenwood",
   "license": "MIT",
   "engines": {
-    "vscode": "*"
+    "vscode": "^1.95.0"
   },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "solarized",
+    "solarized light",
+    "light theme"
+  ],
   "icon": "images/solarized.png",
+  "galleryBanner": {
+    "color": "#EEE8D5",
+    "theme": "light"
+  },
+  "files": [
+    "themes/**",
+    "images/**",
+    "README.MD",
+    "LICENSE",
+    "CHANGELOD.MD",
+    "package.json"
+  ],
   "contributes": {
     "themes": [
       {
@@ -19,17 +41,14 @@
       }
     ]
   },
-  "keywords": [
-    "solarized",
-    "solarized light"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/fallenwood/solarized-light-abydos"
   },
   "homepage": "https://github.com/fallenwood/solarized-light-abydos",
   "bugs": "https://github.com/fallenwood/solarized-light-abydos/issues",
-  "dependencies": {
-    "@vscode/vsce": "^2.20.1"
-  }
+  "devDependencies": {
+    "@vscode/vsce": "^3.7.1"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
