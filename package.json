@@ -23,14 +23,6 @@
     "color": "#EEE8D5",
     "theme": "light"
   },
-  "files": [
-    "themes/**",
-    "images/**",
-    "README.MD",
-    "LICENSE",
-    "CHANGELOD.MD",
-    "package.json"
-  ],
   "contributes": {
     "themes": [
       {
